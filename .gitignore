@@ -1,0 +1,11 @@
+/busco_downloads
+/busco_proteins
+/busco_transcripts
+/data
+/logs
+/output
+/maker_bopts.ctl
+/maker_evm.ctl
+/maker_exe.ctl
+/maker_opts.ctl
+/results
