@@ -1,0 +1,13 @@
+#!/bin/bash
+WORKDIR="/data/users/jli/genome_annotation_course"
+OUTDIR="$WORKDIR/output/MAKER"
+FINALDIR="$OUTDIR/final"
+mkdir -p "$FINALDIR/tmp"
+cd "$OUTDIR"
+protein="assembly.all.maker.proteins.fasta"
+transcript="assembly.all.maker.transcripts.fasta"
+gff="assembly.all.maker.noseq.gff"
+cp "$OUTDIR/$gff" "$FINALDIR/${gff}.renamed.gff"
+cp "$OUTDIR/$protein" "$FINALDIR/${protein}.renamed.fasta"
+cp "$OUTDIR/$transcript" "$FINALDIR/${transcript}.renamed.fasta"
+cd "$FINALDIR"
