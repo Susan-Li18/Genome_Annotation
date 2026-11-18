@@ -107,7 +107,7 @@ Only `scripts/`, `plots/` and this README are tracked by git; data, outputs and 
 |---|---|
 | `01_LTR_Copia_Gypsy_cladelevel.pdf`, `02_LTR_Copia_Gypsy_global.pdf` | Identity distribution of intact LTR-RTs per clade |
 | `02-TE_density.pdf` | Circos plots of TE superfamily density |
-| `TE_landscape.pdf` | TE divergence landscape |
+| `TE_landscape.pdf` , `TE_landscape_plot.pdf | TE divergence landscape |
 | `04_BUSCO_genome_vs_proteins.pdf` | BUSCO: genome assembly vs annotated proteins |
 | `05_AED_cumulative_distribution.pdf` | Cumulative AED distribution of MAKER gene models |
 | `pangenome_presence_frequency.pdf` | Pan-gene presence frequency across the five genomes |
